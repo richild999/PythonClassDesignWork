@@ -2,7 +2,7 @@
 
 项目主要爬取电影《流浪地球》的猫眼评论，把评论保存到mongodb，并且分析该电影出现低分的原因
 
-主要的文件为：
+主要的文件为：   
 - comment_crawler.py：爬取电影《流浪地球》的猫眼评论的代码（带说明和注释，需要安装MongoDB数据库）
 - TheWanderingEarth.ipynb：Jupyter notebook代码，分析该电影的评论和评分
 - data.csv: 从MongoDB提取出来的10万条数据
